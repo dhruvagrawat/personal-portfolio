@@ -1,33 +1,35 @@
-#Personal Portfolio Readme
+# Personal Portfolio
 
 Welcome to my personal portfolio repository! Here, I've documented the key features and setup instructions for this project.
 
-#What I've Used
+## What I've Used
 
-1. Leveraged the latest features of Next.js 13.
-2. Employed Next.js App Router for seamless navigation.
-3. Utilized Next.js Server Actions for server-side functionalities.
-4. Implemented both Client & Server Components for optimal performance.
-5. Demonstrated proficiency in TypeScript for both beginner and intermediate levels.
-6. Styled the UI with Tailwind CSS for rapid development.
-7. Managed global state with Context API.
-8. Enhanced user experience with advanced animations using Framer Motion.
-9. Integrated React.Email & Resend for email functionality.
-10. Crafted custom React hooks for efficient code reuse.
-11. Designed a modern UI with fresh aesthetics.
-12. Implemented both Light & Dark mode for user preference.
-13. Ensured responsiveness for a seamless experience across devices.
+- Leveraged the latest features of Next.js 13.
+- Employed Next.js App Router for seamless navigation.
+- Utilized Next.js Server Actions for server-side functionalities.
+- Implemented both Client & Server Components for optimal performance.
+- Demonstrated proficiency in TypeScript for both beginner and intermediate levels.
+- Styled the UI with Tailwind CSS for rapid development.
+- Managed global state with Context API.
+- Enhanced user experience with advanced animations using Framer Motion.
+- Integrated React.Email & Resend for email functionality.
+- Crafted custom React hooks for efficient code reuse.
+- Designed a modern UI with fresh aesthetics.
+- Implemented both Light & Dark mode for user preference.
+- Ensured responsiveness for a seamless experience across devices.
 
-#Setup
-Add RESEND_API_KEY environment variable in .env.local.
+## Setup
 
-#How to Use
+Ensure you have Node.js and npm installed on your machine.
 
-'''
+1. Add `RESEND_API_KEY` environment variable in `.env.local`.
+2. Modify the "to" email in the `send-email.ts` action file.
+
+## How to Use
+
 To run this project locally:
 
-bash
-Copy code
+```bash
 # Clone the repository
 git clone <repository_url>
 
@@ -41,9 +43,17 @@ npm install
 # Modify the "to" email in the send-email.ts action file
 
 # Start the development server
-
 npm run dev
 
-'''
+Open your browser and visit http://localhost:3000 to view the project.
 
-Open your browser and visit http://localhost:3000 to view the project.# personal-portfolio
+Deployment
+The portfolio is deployed and can be accessed at Personal Portfolio.
+
+Author
+Dhruv Agrawat - Personal Portfolio
+Contact
+If you have any questions or suggestions, feel free to contact me at agrawatdhruv@gmail.com.
+
+
+Please ensure to replace `<repository_url>`, `<project_directory>`, and `RESEND_API_KEY` with your actual repository details and environment variables. This format includes detailed sections on project features, setup instructions, usage guidelines, deployment link, author information, and contact details.
