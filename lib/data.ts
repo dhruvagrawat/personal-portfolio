@@ -68,10 +68,31 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Adding soon",
+    title: "PetCafe",
     description:
-      "404 .......................... Not Found",
-    tags: ["React", "Next.js", "Tailwind"],
+      "A simple Static website for a pet cafe, built with React, Tailwind CSS, and Framer Motion.",
+    tags: ["React", "Tailwind", "Framer Motion"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Personal Portfolio",
+    description:
+      "A personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion. Written in TypeScript.",
+    tags: ["React", "Next.js", "Tailwind", "typescript"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Weather app",
+    description:
+      "A simple weather app built with React, Tailwind CSS, and OpenWeatherMap API.",
+    tags: ["React", "Tailwind", "OpenWeatherMap API"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Pet Adoption Website",
+    description:
+      " A simple pet adoption website built with Html, CSS5, and JavaScript.",
+    tags: ["Html", "CSS5", "JavaScript"],
     imageUrl: corpcommentImg,
   },
 ] as const;
