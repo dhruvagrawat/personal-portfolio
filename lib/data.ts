@@ -25,7 +25,7 @@ export const links = [
     name: "Projects",
     hash: "#projects",
   },
-  
+
   {
     name: "Contact",
     hash: "#contact",
@@ -34,37 +34,54 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Alonefield LLC",
-    location: "Intern",
+    title: "Alonefield LLC | Internship",
+    location: "Remote, Singapore",
     description:
-      "Developed microservices in JavaScript and React, Updated websites, tested for functionality and performance, and gained server-side experience with Node.js and Linux for gaming projects.",
-    icon: React.createElement(LuGraduationCap),
-    date: "May 2022 - August 2022",
-  },
-  {
-    title: "Front-End Developer and Wordpress Enggineer",
-    location: "Webcydle",
-    description:
-      "As a WordPress Engineer and Frontend Developer, contributed to 50+ projects, including an AI-driven website automation tool. Managed website upgrades using React, Node.js, TypeScript, and WordPress, resolving technical issues and delivering innovative solutions.",
+      "During this internship, I utilized the MERN stack to develop full stack solutions. Achievements include a 20% increase in online sales through e-commerce platform development and a 25% improvement in user satisfaction due to enhanced user interfaces.",
     icon: React.createElement(CgWorkAlt),
-    date: "August 2022 - February 2023",
+    date: "Jan 2023 - May 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Quadcydle",
+    title: "Sconton Pvt. Ltd. | Backend Developer",
+    location: "Remote, Pune, India",
     description:
-      "Led team in developing over 25 projects, including AI-driven website automation tool, and managed website upgrades using React, Node.js, and TypeScript.",
+      "This internship highlighted my backend development skills with Node.js and MongoDB. I optimized database queries, improving performance by 60%, and reduced server downtime by 30% through effective troubleshooting and optimization.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2023 - Nov 2023",
+  },
+  {
+    title: "IEEE DTU | Web Developer Intern",
+    location: "Hybrid, New Delhi, India",
+    description:
+      "At IEEE DTU, I developed a responsive website using React, which significantly improved the user experience for members. My work involved implementing modern UI/UX practices, resulting in a more intuitive and engaging user interface.",
+    icon: React.createElement(LuGraduationCap),
+    date: "One-month period",
+  },
+  {
+    title: "Quadcydle | Software Developer",
+    location: "Remote, New Delhi, India",
+    description:
+      "In this role, I made technology accessible to small business owners by developing web tools that increased business efficiency by 35%. My digital marketing strategies led to a 40% rise in client acquisition, and post-maintenance services improved customer satisfaction by 50%.",
     icon: React.createElement(FaReact),
-    date: "February 2023 - Decmeber 2023",
+    date: "Nov 2023 - Jan 2024",
+  },
+  {
+    title: "BrutWood | Full Stack Developer",
+    location: "Remote, Canada",
+    description:
+      "At BrutWood, I utilized the MERN stack to build scalable solutions. My contributions increased user retention by 25%, boosted site traffic by 20%, and reduced deployment times by 50% through streamlined development processes.",
+    icon: React.createElement(FaReact),
+    date: "Jan 2024 - May 2024",
   },
   {
     title: "Full-Stack Developer",
     location: "Freelancer",
     description:
-      "Provided comprehensive web development solutions using Next.js, Node.js, React, Express.js, Angular, and related technologies for diverse clientele, encompassing website creation, maintenance, and optimization.",
+      "As a freelancer, I provided comprehensive web development solutions using Next.js, Node.js, React, Express.js, Angular, and related technologies. I completed over 20 projects independently, leading to a 95% client satisfaction rate and reducing server response times by 40% through backend optimizations.",
     icon: React.createElement(FaReact),
-    date: "December 2023 - present",
+    date: "Jan 2023 - Present",
   },
+
 ] as const;
 
 export const projectsData = [
