@@ -33,7 +33,7 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
+  { 
     title: "Alonefield LLC | Internship",
     location: "Remote, Singapore",
     description:
@@ -55,7 +55,7 @@ export const experiencesData = [
     description:
       "At IEEE DTU, I developed a responsive website using React, which significantly improved the user experience for members. My work involved implementing modern UI/UX practices, resulting in a more intuitive and engaging user interface.",
     icon: React.createElement(LuGraduationCap),
-    date: "One-month period",
+    date: "Nov 2023 - Dec 2024",
   },
   {
     title: "Quadcydle | Software Developer",
